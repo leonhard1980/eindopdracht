@@ -1,0 +1,54 @@
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+
+}
+
+a,
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: yellowgreen;
+
+}
+
+li{
+    margin-left: 45px;
+    margin-bottom: 12px;
+    color: white;
+    font-family: domus;
+
+}
+
+
+
+
+
+.plaatje {
+    margin: 4px;
+    margin-left: 14px;
+    margin-top: 10px;
+}
+
+.nav-container{
+    background-color: #2f2f3b;
+    display: flex;
+    flex-direction: column;
+}
+
+/*.active-link {
+    border-bottom: 2px solid white;
+}*/
+
+
+.inner-container{
+
+}
+
+.outer-container{
+
+}
