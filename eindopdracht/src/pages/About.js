@@ -1,6 +1,7 @@
 import {link} from 'react-router-dom';
 import PhotoSlider from "../components/photoslider/PhotoSlider";
 import React from "react";
+import Bumper from "../components/bumper/Bumper";
 
 
 function About() {
@@ -9,7 +10,7 @@ function About() {
 
 
 <h1> About US!!! </h1>
-
+            <Bumper tekst="." />
             <article className="page-container">
                 <p className="colums-3">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi corporis cumque exercitationem minus optio, perferendis quos sunt.
@@ -22,7 +23,12 @@ function About() {
                     Autem cum delectus deserunt exercitationem, fugiat illum iste iusto natus nobis nostrum perferendis provident qui quos recusandae sapiente tempora
                     tempore unde, voluptas. Ab, deserunt est fugiat fugit ipsam saepe sint ullam?
                 </p> </article>
-            <PhotoSlider/>
+
+            <PhotoSlider
+                classnaampje="topplaatje6"
+                title="koeien?"
+                quote="You only live ones (and zero's)"
+            />
         </div>
     );
 }

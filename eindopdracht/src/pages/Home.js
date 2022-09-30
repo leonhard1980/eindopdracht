@@ -5,12 +5,8 @@ import afbeelding01 from "../assets/header02.jpg"
 function Home(){
     return(
         <>
-/*    <PhotoSlider
-        photo={afbeelding01}
-        title="Leuk plaatje"
-        quote="You only live ones (and zero's)"
 
-    />*/
+            <p>niks</p>
             </>
     );
 }

@@ -6,12 +6,9 @@ import PhotoSlider from "../components/photoslider/PhotoSlider";
 function GetInvolved() {
     return(
         <>
-            <PhotoSlider
-                classnaampje="topplaatje3"
-                title="koeien?"
-                quote="You only live ones (and zero's)"
-            />
-        <h1> Get Involved</h1>
+            <h1> Get Involved</h1>
+
+
 
             <article className="page-container">
                 <p className="colums-2">
@@ -26,7 +23,11 @@ function GetInvolved() {
                     tempore unde, voluptas. Ab, deserunt est fugiat fugit ipsam saepe sint ullam?
                 </p> </article>
 
-
+            <PhotoSlider
+                classnaampje="topplaatje7"
+                title="koeien?"
+                quote="You only live ones (and zero's)"
+            />
  </>
     );
 }

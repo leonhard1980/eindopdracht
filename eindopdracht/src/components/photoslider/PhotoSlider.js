@@ -2,11 +2,11 @@ import React from 'react';
 import './PhotoSlider.css';
 
 
-function PhotoSlider({ title, quote, classnaampje }){
+function PhotoSlider({ quote, greatmind, classnaampje }){
     return(
         <div className={classnaampje}>
-         <h1>{title}</h1>
-        <h3> -- Quote: {quote} -- </h3>
+         <h1>{quote}</h1>
+        <h3> -- Quote: {greatmind} -- </h3>
     </div>
     );
 }

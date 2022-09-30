@@ -8,23 +8,33 @@ function TopMenu() {
     return (
         <nav>
             <div className="nav-container">
-                <NavLink to="/" activeClassName="active-link"> <img className="plaatje" src={logo} width={200}  alt="logo" /> </NavLink>
+                <NavLink to="/"
+                         activeClassName="active-link">
+                    <img className="plaatje"
+                         src={logo}
+                         width={200}
+                         alt="logo" />
+                </NavLink>
 
                 <ul>
                     <li>
-                        <NavLink to="/products" exact activeClassName="active-link"> Products </NavLink>
+                        <NavLink to="/product"
+                                 activeClassName="active-link"> Products </NavLink>
                     </li>
 
                     <li>
-                        <NavLink to="/getinvolved" activeClassName="active-link"> Get Involved </NavLink>
+                        <NavLink to="/getinvolved"
+                                 activeClassName="active-link"> Get Involved </NavLink>
                     </li>
 
                     <li>
-                        <NavLink to="/about" activeClassName="active-link">About</NavLink>
+                        <NavLink to="/about"
+                                 activeClassName="active-link">About</NavLink>
                     </li>
 
                     <li>
-                        <NavLink to="/register" activeClassName="active-link"> Register </NavLink>
+                        <NavLink to="/register"
+                                 activeClassName="active-link"> Register </NavLink>
                     </li>
                 </ul>
             </div>
